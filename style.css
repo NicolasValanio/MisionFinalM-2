@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+background-color: rgba(253, 182, 115, 0.795);
+}
+
+.card-group{
+    gap: 20px;
+}
+.card-body{
+    display: block;
+}
+@media (max-width: 750px) {
+    .ms-5{
+        display:none ;
+    }
+}
+@media (min-width: 700px) {
+    .container-2{
+        display: block;
+    }
+}
+
+.foot{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#identificador1,#identificador2{
+    font-size: 1rem;
+    font-weight: bold;
+}
